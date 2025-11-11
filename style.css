@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F9FFF6; 
+  color: #333333; 
+  margin: 20px;
+  padding: 10px;
+  line-height: 1.6;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1C2A23; 
+    color: #E6E6E6; 
+  }
+}
+
+/* Header */
+header {
+  background-color: #2E8B57; 
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #A3D977;
+}
+
+/* Title Section */
+.title-section {
+  text-align: center;
+  padding: 80px 20px 40px;
+}
+
+.title-section h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #2E8B57;
+  margin-bottom: 20px;
+}
+
+.title-section p {
+  font-size: 18px;
+  color: orange;
+}
+
+/* Team Section */
+.team-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 0 20px 80px;
+}
+
+.team-card {
+  background-color: white;
+  width: 260px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.team-card h3 {
+  color: #2E8B57;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.team-card .role {
+  color: #FFB347;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.team-card .desc {
+  font-size: 16px;
+  color: #333333;
+}
+
+/* Text Section */
+.text-section {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 80px;
+  color: #2E8B57;
+}
+
+/* Footer */
+footer {
+  background-color: #2E8B57;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
